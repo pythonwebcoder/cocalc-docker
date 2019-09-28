@@ -180,6 +180,10 @@ This does NOT set the password.  It just makes a password reset link, which you 
 
 After making your main account an admin as above, search for "Account Creation Token" in the Admin tab. Put some random string there and other people will not be able to create accounts in your CoCalc container, without knowing that token.
 
+#### Cloudflare
+
+Set SSL to full and force HTTPS
+
 ### Terminal Height
 
 If `docker exec -it cocalc bash` doesn't seem to give you the right terminal height, e.g. content is only displayed in the uppper part of the terminal, this workaround may help when launching bash:
